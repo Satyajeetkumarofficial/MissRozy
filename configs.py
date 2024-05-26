@@ -38,7 +38,7 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", 25617967))
 	API_HASH = os.environ.get("API_HASH", "10555bea1cdfc7d2303fc13b7fd187cc")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","6836223658:AAEqVCgZEiJX-Voebzg76VFiKq8NVsFz32I")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7010247615:AAHKRvhOlRpP389jWz25jrTj5BM-byUq3pA")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "FileToLink_SkBOT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002054249965))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6567324192"))
